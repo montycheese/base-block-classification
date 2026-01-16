@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Base Live Feed - Transaction Classifier",
   description: "Real-time classified transaction feed for Base blockchain",
+  other: {
+    "base:app_id": "696aa0116b2e86fd30456131",
+  },
 };
 
 export default function RootLayout({
